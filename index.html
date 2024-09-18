@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        background-color: forestgreen;
+        height: 60vh;
+        width: 60vw;
+        padding: 10px;
+        display: grid;
+        gap: 5px;
+        grid-template-areas:
+          "area1 area2 area3 "
+          "area1 area5 area6"
+          "area7 area5 area9";
+      }
+      .i1 {
+        background-image: url(./assets/images/d1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* height: 125px; */
+        width: 125px;
+        grid-area: area1;
+      }
+      .i2 {
+        background-image: url(./assets/images/d2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125px;
+        width: 125px;
+        grid-area: area2;
+      }
+      .i3 {
+        background-image: url(./assets/images/d7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125px;
+        width: 125px;
+        grid-area: area3;
+      }
+      .i4 {
+        /* background-image: url(./assets/images/d4.jpg); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125px;
+        width: 125px;
+        grid-area: area4;
+      }
+      .i5 {
+        background-image: url(./assets/images/d5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* height: 125px; */
+        width: 125px;
+        grid-area: area5;
+      }
+      .i6 {
+        background-image: url(./assets/images/d6.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125px;
+        width: 125px;
+        grid-area: area6;
+      }
+      .i7 {
+        background-image: url(./assets/images/d7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125px;
+        width: 125px;
+        grid-area: area7;
+      }
+      .i8 {
+        /* background-image: url(./assets/images/d5.jpg); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125px;
+        width: 125px;
+        grid-area: area8;
+      }
+      .i9 {
+        background-image: url(./assets/images/d2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 125px;
+        width: 125px;
+        grid-area: area9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="i1"></div>
+      <div class="i2"></div>
+      <div class="i3"></div>
+      <div class="i4"></div>
+      <div class="i5"></div>
+      <div class="i6"></div>
+      <div class="i7"></div>
+      <div class="i8"></div>
+      <div class="i9"></div>
+    </div>
+  </body>
+</html>
